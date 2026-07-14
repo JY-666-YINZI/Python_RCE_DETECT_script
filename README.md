@@ -21,20 +21,19 @@
 
 Clone this repository and ensure you have requests installed:
 
-Bash
-git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
-cd rce_hunter
-pip install requests
+
+            git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
+            cd rce_hunter
+            pip install requests
 
 Usage
 Single Target Scan:
 
-Bash
-python rce_hunter.py -u [http://example.com](http://example.com)
+    python rce_hunter.py -u [http://example.com](http://example.com)
+
 Batch Scanning from File:
 
-Bash
-python rce_hunter.py -f urls.txt
+    python rce_hunter.py -f urls.txt
 
 
 ⚡ 多进程并发： 采用 Python 原生 multiprocessing.Pool，并发上限可达 100 线程，轻松应对海量资产检测。
@@ -49,19 +48,17 @@ python rce_hunter.py -f urls.txt
 环境搭建
 克隆该项目，并确保安装了 requests 依赖库：
 
-Bash
-git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
-cd rce_hunter
-pip install requests
+
+    git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
+    cd rce_hunter
+    pip install requests
 命令行参数说明
 检测单个目标：
 
-Bash
-python rce_hunter.py -u [http://192.168.1.1:8080](http://192.168.1.1:8080)
+    python rce_hunter.py -u [http://192.168.1.1:8080](http://192.168.1.1:8080)
 从文件批量载入并检测：
 
-Bash
-python rce_hunter.py -f targets.txt
+    python rce_hunter.py -f targets.txt
 
 Disclaimer / 免责声明
 This tool is developed strictly for authorized security auditing, vulnerability research, and incident response backup. The author assumes no liability for any unauthorized activities or damage caused by improper usage of this program.
