@@ -21,10 +21,9 @@
 
 Clone this repository and ensure you have requests installed:
 
-
-            git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
-            cd rce_hunter
-            pip install requests
+    git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
+    cd rce_hunter
+    pip install requests
 
 Usage
 Single Target Scan:
