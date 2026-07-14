@@ -21,8 +21,8 @@
 
 Clone this repository and ensure you have requests installed:
 
-    git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
-    cd rce_hunter
+    git clone https://github.com/JY-666-YINZI/Python_RCE_DETECT_script.git
+    cd Python_RCE_DETECT_script
     pip install requests
 
 Usage
@@ -48,13 +48,13 @@ Batch Scanning from File:
 克隆该项目，并确保安装了 requests 依赖库：
 
 
-    git clone [https://github.com/your-username/rce_hunter.git](https://github.com/your-username/rce_hunter.git)
-    cd rce_hunter
+    git clone https://github.com/JY-666-YINZI/Python_RCE_DETECT_script.git
+    cd Python_RCE_DETECT_script
     pip install requests
 命令行参数说明
 检测单个目标：
 
-    python rce_hunter.py -u [http://192.168.1.1:8080](http://192.168.1.1:8080)
+    python Python_RCE_DETECT_script.py -u [http://192.168.1.1:8080](http://192.168.1.1:8080)
 从文件批量载入并检测：
 
     python rce_hunter.py -f targets.txt
